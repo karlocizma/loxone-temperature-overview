@@ -1,0 +1,5 @@
+# Loxone FTP Client Requirements
+# Core dependencies (Python standard library is sufficient for basic functionality)
+
+# Optional: for better logging and monitoring
+python-dateutil>=2.8.0
