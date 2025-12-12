@@ -1,0 +1,25 @@
+{
+  "ftp": {
+    "host": "192.168.1.100",
+    "port": 21,
+    "username": "admin",
+    "password": "password",
+    "timeout": 30,
+    "retry_attempts": 3,
+    "retry_delay": 2,
+    "remote_log_directory": "/logs"
+  },
+  "storage": {
+    "local_logs_path": "./data/logs",
+    "processed_data_path": "./data/processed",
+    "keep_old_logs_days": 30
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "processing": {
+    "retrieve_only_new": true,
+    "combine_multiple_files": true
+  }
+}
